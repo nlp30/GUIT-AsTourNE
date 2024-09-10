@@ -38,7 +38,7 @@ def get_tag(sentence, tokenizer, model):
     return predicted_labels
 
 
-sentence = "১৮০৬ চনত স্বৰ্গদেউ কমলেশ্বৰ সিংহ জয়সাগৰৰ মন্দিৰ পৰিদৰ্শন কৰিছিল ।"
+sentence = "আহোম স্বৰ্গদেউ প্ৰমত্ত সিংহয়ে ১৬৬৭ শকত এই মন্দিৰ নিৰ্মাণ কৰিছিল ।"
 prediction = get_tag(sentence=sentence, tokenizer=tokenizer, model=model)
 
 for index in range(len(sentence.split(' '))):
@@ -47,14 +47,15 @@ for index in range(len(sentence.split(' '))):
 ```
 #### Result:
 <pre>
-১৮০৬    B-YEAR  
-চনত    I-YEAR  
-স্বৰ্গদেউ    O  
-কমলেশ্বৰ    B-PER  
-সিংহ    I-PER  
-জয়সাগৰৰ    B-LOC  
-মন্দিৰ    I-LOC  
-পৰিদৰ্শন    O  
-কৰিছিল    O  
-।    O
+আহোম	B-MISC
+স্বৰ্গদেউ	O
+প্ৰমত্ত	B-PER
+সিংহয়ে	I-PER
+১৬৬৭	B-YEAR
+শকত	I-YEAR
+এই	O
+মন্দিৰ	O
+নিৰ্মাণ	O
+কৰিছিল	O
+।	O
 </pre>
