@@ -1,6 +1,6 @@
-## **GUIT-AsTourNE: A Dataset of Assamese Named Entities in the Tourism Domain**
+## **[GUIT-AsTourNE: A Dataset of Assamese Named Entities in the Tourism Domain](https://aclanthology.org/2024.paclic-1.89/)**
 
-This repository contains GUIT-AsTourNE dataset as well as the best-performing pre-trained model. The dataset is split into train(70%), dev(15%), and test(15%).
+This repository contains GUIT-AsTourNE dataset as well as the best-performing pre-trained model of our PACLIC 38 paper [GUIT-AsTourNE: A Dataset of Assamese Named Entities in the Tourism Domain](https://aclanthology.org/2024.paclic-1.89/). The dataset is split into train(70%), dev(15%), and test(15%).
 
 ### Usage:
 
