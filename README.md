@@ -59,3 +59,14 @@ for index in range(len(sentence.split(' '))):
 কৰিছিল	O
 ।	O
 </pre>
+
+### Citation Information:
+If you use our work or find it helpful, please cite it using the following reference:
+```bibtex
+@inproceedings{choudhury2024guit,
+  title={GUIT-AsTourNE: A Dataset of Assamese Named Entities in the Tourism Domain},
+  author={Choudhury, Bhargab and Deka, Vaskar and Sarma, Shikhar Kumar},
+  booktitle={Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation},
+  pages={928--939},
+  year={2024}
+}
